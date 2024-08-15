@@ -287,3 +287,165 @@ header .container .row a:hover {
   margin-bottom: 15px;
   font-weight: normal;
 }
+
+footer {
+  padding: 40px 0px;
+}
+footer .top-footer {
+  padding: 40px 0px;
+  margin-top: 20px;
+}
+footer .top-footer .footer-tittle {
+  padding-bottom: 40px;
+}
+footer .top-footer img {
+  margin-bottom: 40px;
+}
+footer .top-footer p {
+  color: #868c98;
+  font-size: 16px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+footer .top-footer .footer-tittle h4 {
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+footer .top-footer .footer-tittle ul {
+  list-style: none;
+}
+footer .top-footer .footer-tittle li {
+  margin-bottom: 15px;
+}
+footer .top-footer .footer-tittle li a {
+  color: #868c98;
+  font-weight: 300;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+footer .top-footer .footer-tittle li a:hover {
+  color: #ff2020;
+  padding-left: 5px;
+  transition: 0.3s;
+}
+
+footer .bottom-footer {
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+footer .bottom-footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom-footer p {
+  color: #888888;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  font-family: "Roboto", sans-serif;
+}
+footer .bottom-footer p span {
+  color: #ff2020;
+  font-weight: bold;
+}
+footer .bottom-footer i {
+  padding: 0px 10px;
+  transition: transform 0.7s ease-in-out;
+}
+footer .bottom-footer i:hover {
+  color: #ff2020;
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+/********************* Start Media Query **************************/
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  header .container .row {
+    padding: 50px 0px;
+  }
+  header .container .row h1 {
+    font-size: 35px;
+  }
+  header .container .row img {
+    display: none;
+  }
+  .popularItems .heading h2 {
+    font-size: 33px;
+  }
+  .chooseWatch .row {
+    padding: 0px;
+    margin: 0px;
+  }
+  .chooseWatch .text h2 {
+    font-size: 30px;
+  }
+  .chooseWatch img {
+    padding: 30px 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  header .container .row h1 {
+    font-size: 35px;
+  }
+  header .container .row img {
+    height: 400px;
+  }
+  .newArrivals .boxes .box a {
+    font-size: 17px;
+  }
+  .popularItems .box .text a {
+    font-size: 17px;
+  }
+  .chooseWatch .row {
+    padding: 0px;
+    margin: 0px;
+  }
+  .chooseWatch .text h2 {
+    font-size: 30px;
+  }
+  .chooseWatch img {
+    padding: 30px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header .container .row h1 {
+    font-size: 50px;
+  }
+  header .container .row img {
+    height: 500px;
+  }
+  .newArrivals .boxes .box a {
+    font-size: 17px;
+  }
+  .chooseWatch .text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .chooseWatch .text p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  header .container .row h1 {
+    font-size: 60px;
+  }
+  header .container .row img {
+    height: 500px;
+  }
+  .chooseWatch .text h2 {
+    font-size: 43px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1550px) {
+  .service .container .row p {
+    width: 70%;
+  }
+}
+/********************* End Media Query **************************/
