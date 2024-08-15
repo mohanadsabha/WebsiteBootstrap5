@@ -14,7 +14,6 @@
   box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
 .navbar .navbar-collapse {
-  display: flex;
   justify-content: flex-end;
 }
 .navbar a {
@@ -316,6 +315,7 @@ footer .top-footer .footer-tittle h4 {
 }
 footer .top-footer .footer-tittle ul {
   list-style: none;
+  padding-left: 0;
 }
 footer .top-footer .footer-tittle li {
   margin-bottom: 15px;
