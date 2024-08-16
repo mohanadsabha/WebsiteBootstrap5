@@ -386,7 +386,6 @@ footer .bottom-footer i:hover {
     padding: 30px 0px;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   header .container .row h1 {
     font-size: 35px;
@@ -411,7 +410,6 @@ footer .bottom-footer i:hover {
     padding: 30px 0px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   header .container .row h1 {
     font-size: 50px;
@@ -430,7 +428,6 @@ footer .bottom-footer i:hover {
     margin-bottom: 30px;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   header .container .row h1 {
     font-size: 60px;
@@ -442,7 +439,6 @@ footer .bottom-footer i:hover {
     font-size: 43px;
   }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1550px) {
   .service .container .row p {
     width: 70%;
